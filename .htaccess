@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Geschützter Bereich"
+AuthUserFile /src/.htpasswd
+Require user fraubonde
