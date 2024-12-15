@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Impressum</title>
+<link href="style_sheet_frau_bonde.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="header">
+  <div class="menu"> <a href="#bekleidung">Bekleidung</a> <a class="opening_time" href="#time">Öffnungszeiten</a> <a href="mailto:frau-bonde@web.de">Kontakt</a> </div>
+  <img class="logo_header" src="src/fraubonde_4-farbig-CMYK_Zeichenfläche 1.png" alt="fraubonde_logo" href="index.html"> </div>
+	
+	<div style="width: 80%; margin-left:10%; margin-right:10%;">
+
+	<h1>Impressum</h1>
+  <p>Frau Bonde<br>
+Rathausstraße 1<br>
+24690 Glücksburg<br>
+Schleswig-Holstein</p>
+<p>
+Tel. +49 (0) 4631 - 44 44 648<br>
+frau-bonde@web.de</p>
+	<p> Umsatzsteuer ID: <br>
+
+	
+		</div>
+</body>
+</html>
