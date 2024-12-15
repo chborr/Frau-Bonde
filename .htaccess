@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Geschützter Bereich"
-AuthUserFile /src/.htpasswd
+AuthUserFile /ht/.htpasswd
 Require user fraubonde
