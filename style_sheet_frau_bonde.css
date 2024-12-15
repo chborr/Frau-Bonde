@@ -1,0 +1,1091 @@
+@charset "utf-8";
+/*Variable Declarations*/
+/* CSS Document */
+html, body {
+  font-family: Outfit, "Outfit Black", "Outfit ExtraBold", "Outfit ExtraLight", "Outfit Light", "Outfit Medium", "Outfit SemiBold", "Outfit Thin";
+  margin: 0;
+  padding: 0;
+	
+}
+
+
+@media screen and (min-width: 1681px) {
+  /*	
+	::-webkit-scrollbar{
+		width: 20px;
+	}
+	*/
+  p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  h1 {
+    font-size: 2.9rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  /*ONLY FOR CONTACT USED*/
+  h3 {
+    font-size: 45px;
+  }
+  a {
+    font-size: 30px;
+  }
+  a:link {
+    text-decoration: none;
+    color: #006C98;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0A2E3D;
+    transition: 0.3s;
+  }
+  .menu {
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+    color: #006C98;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .opening_time {
+    padding: 0px 5% 0px 5%;
+  }
+  .header {
+    background-color: #E9F7F5;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+  }
+  .logo_header {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_welcome_one {
+    width: 40%;
+    padding-right: 10px;
+  }
+  .image_welcome_two {
+    width: 40%;
+    vertical-align: top;
+  }
+  .row {
+    display: flex;
+    width: 50%;
+  }
+  .column {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column_2 {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .column img:active {
+    transform: scale(2);
+    transition: transform .2s;
+  }
+  .column_2 img {
+    width: 100%;
+    vertical-align: top;
+    padding: 20px 0 0 0px;
+  }
+  .column_3 img {
+    width: 100%;
+    vertical-align: top;
+    padding: 20px 0 0 0px;
+  }
+  .image_welcome_three {
+    width: 20%;
+    vertical-align: top;
+  }
+  .welcome_content {
+    padding: 50px 10% 50px 10%;
+  }
+  .welcome_text {
+    width: 50%;
+    margin-left: 30px;
+    vertical-align: middle;
+    color: #006C98;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .bekleidung {
+    background-color: #FFA595;
+    width: auto;
+    height: auto;
+    padding: 2% 10% 2% 10%;
+    display: flex;
+  }
+  .bekleidung_text {
+    width: 50%;
+    color: white;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact {
+    padding: 0px 10% 0px 10%;
+    width: auto;
+    display: flex;
+    height: auto;
+  }
+  .image_lena {
+    width: 50%;
+	  
+  }
+  .image_lena img {
+    width: 100%;
+  }
+  .contact_information {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    margin-left: 10%;
+  }
+  .contact_button {
+    width: 400px;
+    background-color: #FFA595;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    display: block;
+  }
+  .contact_button:hover {
+    background-color: #8B1D09;
+    border: #FFA595;
+    transition: 0.3s;
+  }
+  .button_text {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  .button_text:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .opening_info {
+    background-color: #E9F7F5;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2% 10% 2% 10%;
+  }
+  .opening {
+    color: #006C98;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .days {
+    width: 40%;
+  }
+  .times {
+    width: 50%;
+  }
+  .social {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    margin-left: 10%;
+  }
+  .sociallinks {}
+  .footer {
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .impressum, .datenschutz {
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+  }
+}
+@media screen and (min-width: 1032px) and (max-width: 1680px) {
+  p {
+    font-size: 18px;
+    line-height: 1.8rem;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  /*ONLY FOR CONTACT USED*/
+  h3 {
+    font-size: 38px;
+  }
+  /*USED FOR HEADING NAV*/
+  a {
+    font-size: 1.6rem;
+  }
+  a:link {
+    text-decoration: none;
+    color: #006C98;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0A2E3D;
+    transition: 0.3s;
+  }
+  .menu {
+    padding-top: 30px;
+    text-align: center;
+    color: #006C98;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 90%;
+    display: block;
+  }
+  .opening_time {
+    padding: 0px 5% 0px 5%;
+  }
+  .header {
+    background-color: #E9F7F5;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+  }
+  .logo_header {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_welcome_one {
+    width: 40%;
+    padding-right: 10px;
+  }
+  .image_welcome_two {
+    width: 40%;
+    vertical-align: top;
+  }
+  .row {
+    display: flex;
+    width: 50%;
+  }
+  .column {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column_2 {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .column img:active {
+    transform: scale(2);
+    transition: transform .2s;
+  }
+  .column_2 img {
+    width: 100%;
+    vertical-align: top;
+    padding: 20px 0 0 0px;
+  }
+  .column_3 img {
+    width: 100%;
+    padding-top: 20%;
+    padding: 20px 0 0 0px;
+  }
+  .image_welcome_three {
+    width: 20%;
+    vertical-align: top;
+  }
+  .welcome_content {
+    padding: 50px 10% 50px 10%;
+  }
+  .welcome_text {
+    width: 50%;
+    margin-left: 30px;
+    vertical-align: middle;
+    color: #006C98;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .bekleidung {
+    background-color: #FFA595;
+    width: auto;
+    height: auto;
+    padding: 50px 10% 50px 10%;
+    display: flex;
+  }
+  .bekleidung_text {
+    width: 50%;
+    color: white;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact {
+    padding: 0px 10% 0px 10%;
+    width: auto;
+    display: flex;
+    height: auto;
+  }
+  .image_lena {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .image_lena img {
+    max-width: 100%;
+    height: auto;
+  }
+  .contact_information {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    margin-left: 5%;
+    padding-bottom: 2%;
+  }
+  .contact_button {
+    width: 300px;
+    background-color: #FFA595;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 5%;
+  }
+  .contact_button:hover {
+    background-color: #8B1D09;
+    border: #FFA595;
+    transition: 0.3s;
+  }
+  .button_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .button_text:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .opening_info {
+    background-color: #E9F7F5;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 2% 10% 2% 10%;
+  }
+  .opening {
+    color: #006C98;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .days {
+    width: 50%;
+  }
+  .times {
+    width: 50%;
+  }
+  .social {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    margin-left: 10%;
+  }
+  .sociallinks {}
+  .footer {
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .impressum, .datenschutz {
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+  }
+}
+@media screen and (min-width: 761px) and (max-width: 1031px) {
+  p {
+    font-size: 18px;
+    line-height: 1.8rem;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  /*ONLY FOR CONTACT USED*/
+  h3 {
+    font-size: 25px;
+  }
+  /*USED FOR HEADING NAV*/
+  a {
+    font-size: 1.2rem;
+  }
+  a:link {
+    text-decoration: none;
+    color: #006C98;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0A2E3D;
+    transition: 0.3s;
+  }
+  .menu {
+    padding-top: 30px;
+    text-align: center;
+    color: #006C98;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 90%;
+    display: block;
+  }
+  .opening_time {
+    padding: 0px 5% 0px 5%;
+  }
+  .header {
+    background-color: #E9F7F5;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+  }
+  .logo_header {
+    width: 40%;
+    padding-top: 2%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_welcome_one {
+    width: 40%;
+    padding-right: 10px;
+  }
+  .image_welcome_two {
+    width: 40%;
+    vertical-align: top;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .column {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column_2 {
+    width: 50%;
+  }
+  .column img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .column img:active {
+    transform: scale(2);
+    transition: transform .2s;
+  }
+  .column_2 img {
+    width: 100%;
+    vertical-align: top;
+    padding: 20px 0 0 0px;
+  }
+  .column_3 img {
+    width: 100%;
+    padding-top: 20%;
+    padding: 20px 0 0 0px;
+  }
+  .image_welcome_three {
+    width: 20%;
+    vertical-align: top;
+  }
+  .welcome_content {
+    padding: 50px 10% 50px 10%;
+  }
+  .welcome_text {
+    width: 100%;
+    vertical-align: middle;
+    color: #006C98;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .bekleidung {
+    background-color: #FFA595;
+    width: auto;
+    height: auto;
+    padding: 50px 10% 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bekleidung_text {
+    width: 100%;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact {
+    width: auto;
+    display: flex;
+  }
+  .image_lena {
+    width: 50%;
+  }
+  .image_lena img {
+    width: 100%;
+  }
+  .contact_information {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    margin-left: 5%;
+    padding-bottom: 2%;
+  }
+  .contact_button {
+    width: 300px;
+    background-color: #FFA595;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 5%;
+  }
+  .contact_button:hover {
+    background-color: #8B1D09;
+    border: #FFA595;
+    transition: 0.3s;
+  }
+  .button_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .button_text:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .opening_info {
+    background-color: #E9F7F5;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 10% 2% 10%;
+  }
+  .opening {
+    color: #006C98;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .days {
+    width: 30%;
+  }
+  .times {
+    width: 50%;
+  }
+  .social {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+  }
+  .sociallinks {}
+  .footer {
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .impressum, .datenschutz {
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+  }
+}
+@media screen and (min-width: 582px) and (max-width: 760px) {
+  p {
+    font-size: 18px;
+    line-height: 1.8rem;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  /*ONLY FOR CONTACT USED*/
+  h3 {
+    font-size: 25px;
+  }
+  /*USED FOR HEADING NAV*/
+  a {
+    font-size: 1.5rem;
+  }
+  a:link {
+    text-decoration: none;
+    color: #006C98;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0A2E3D;
+    transition: 0.3s;
+  }
+  .menu {
+    padding-top: 30px;
+    text-align: center;
+    color: #006C98;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 90%;
+    display: block;
+  }
+  .opening_time {
+    padding: 0px 5% 0px 5%;
+  }
+  .header {
+    background-color: #E9F7F5;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+  }
+  .logo_header {
+    width: 60%;
+    padding-top: 6%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_welcome_one {
+    width: 40%;
+  }
+  .image_welcome_two {
+    width: 40%;
+    vertical-align: top;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .column {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .column_2 {
+    width: 50%;
+  }
+  .column img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .column img:active {
+    transform: scale(2);
+    transition: transform .2s;
+  }
+  .column_2 img {
+    width: 100%;
+    vertical-align: top;
+    padding: 20px 0 0 0px;
+  }
+  .column_3 img {
+    width: 100%;
+    padding-top: 20%;
+    padding: 20px 0 0 0px;
+  }
+  .image_welcome_three {
+    width: 20%;
+    vertical-align: top;
+  }
+  .welcome_content {
+    padding: 5% 10% 5% 10%;
+  }
+  .welcome_text {
+    width: 100%;
+    vertical-align: middle;
+    color: #006C98;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .bekleidung {
+    background-color: #FFA595;
+    width: auto;
+    height: auto;
+    padding: 50px 10% 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bekleidung_text {
+    width: 100%;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image_lena {
+    width: 100%;
+  }
+  .image_lena img {
+    width: 100%;
+  }
+  .contact_information {
+    width: 80%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+  }
+  .contact_button {
+    width: 300px;
+    background-color: #FFA595;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 5%;
+  }
+  .contact_button:hover {
+    background-color: #8B1D09;
+    border: #FFA595;
+    transition: 0.3s;
+  }
+  .button_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .button_text:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .opening_info {
+    background-color: #E9F7F5;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+  }
+  .opening {
+    color: #006C98;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .days {
+    width: 50%;
+  }
+  .times {
+    width: 50%;
+  }
+  .social {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+  }
+  .sociallinks {}
+  .footer {
+    font-size: 14px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .impressum, .datenschutz {
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+  }
+}
+@media screen and (max-width: 581px) {
+  p {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  /*ONLY FOR CONTACT USED*/
+  h3 {
+    font-size: 25px;
+  }
+  /*USED FOR HEADING NAV*/
+  a {
+    font-size: 1.2rem;
+  }
+  a:link {
+    text-decoration: none;
+    color: #006C98;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #0A2E3D;
+    transition: 0.3s;
+  }
+  .menu {
+    padding-top: 5%;
+    text-align: center;
+    color: #006C98;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 90%;
+    display: block;
+  }
+  .opening_time {
+    padding: 0px 5% 0px 5%;
+  }
+  .header {
+    background-color: #E9F7F5;
+    background-size: auto;
+    height: auto;
+    width: 100%;
+  }
+  .logo_header {
+    width: 80%;
+    padding-top: 6%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_welcome_one {
+    width: 100%;
+  }
+  .image_welcome_two {
+    width: 100%;
+    vertical-align: top;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+  }
+  .column_2 {
+    width: 100%;
+  }
+  .column img {
+    width: 100%;
+    padding-top: 2%;
+  }
+  .column img:active {
+    transform: scale(2);
+    transition: transform .2s;
+  }
+  .column_2 img {
+    width: 100%;
+    vertical-align: top;
+    padding-top: 2%;
+  }
+  .column_3 img {
+    width: 100%;
+    padding-top: 20%;
+    padding-top: 2%;
+  }
+  .image_welcome_three {
+    width: 20%;
+    vertical-align: top;
+  }
+  .welcome_content {
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+  }
+  .welcome_text {
+    width: 100%;
+    vertical-align: middle;
+    color: #006C98;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .bekleidung {
+    background-color: #FFA595;
+    width: auto;
+    height: auto;
+    padding: 2% 10% 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .bekleidung_text {
+    width: 100%;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image_lena {
+    width: 100%;
+  }
+  .image_lena img {
+    width: 100%;
+  }
+  .contact_information {
+    width: 80%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+  }
+  .contact_button {
+    width: 70%;
+    background-color: #FFA595;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 5%;
+  }
+  .contact_button:hover {
+    background-color: #8B1D09;
+    border: #FFA595;
+    transition: 0.3s;
+  }
+  .button_text {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+  }
+  .button_text:hover {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  .opening_info {
+    background-color: #E9F7F5;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+  }
+  .opening {
+    color: #006C98;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+  }
+  .info_block {
+    width: 100%;
+  }
+  .days {
+    width: 50%;
+  }
+  .times {
+    width: 50%;
+  }
+  .social {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #006C98;
+  }
+  .sociallinks {}
+  .footer {
+    font-size: 14px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .impressum, .datenschutz {
+    font-size: 20px;
+    padding: 0 2% 0 2%;
+  }
+}
+/*Functions which are not part of responsive design */
+.column img:hover, .column_2 img:hover, .column_3 img:hover {
+  transform: scale(1.02);
+  transition: transform .2s;
+}
+div {
+  float: left;
+}
