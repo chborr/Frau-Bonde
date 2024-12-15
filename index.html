@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frau Bonde</title>
+<link href="style_sheet_frau_bonde.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<script>
+    if (window.location.pathname === "/frau_bonde.html") {
+        window.history.replaceState(null, "", "/");
+    }
+</script>
+	
+<div class="header">
+  <div class="menu"> <a href="#bekleidung">Bekleidung</a> <a class="opening_time" href="#time">Öffnungszeiten</a> <a href="mailto:frau-bonde@web.de">Kontakt</a> </div>
+  <img class="logo_header" src="../Logo und Schriftenkoffer/4-Farbig/fraubonde_4-farbig-CMYK_Zeichenfläche 1.png" alt="fraubonde_logo"> </div>
+<div class="welcome_content">
+  <div class="flex-container">
+    <div class="row">
+      <div class="column"> <img  src="src/fraubonde_bekleidung_eingang.jpg" alt="fraubonde_innenaufnahme_01"> </div>
+      <div class="column_2"> <img  src="src/fraubonde_pullover_quader.jpg" alt="fraubonde_innenaufnahme_02" class="clickable-image" onClick="enlargeImage(this)"> 
+		  <img  src="src/fraubonde_stiefelchen.jpg" alt="fraubonde_innenaufnahme_03"> </div>
+    </div>
+    <div class="welcome_text">
+      <h1>Willkommen bei Frau Bonde</h1>
+      <p> Unser Laden ist ein kleines Paradies, in dem Du liebevoll ausgewählte Mode für die Kleinen und stilvolle Outfits für Frauen findest. Mit viel Herz und Hingabe haben wir eine Kollektion zusammengestellt, die sowohl Qualität als auch einzigartige Designs bietet.<br>
+        <br>
+        Unser Laden ist nicht nur ein Ort zum Einkaufen, sondern auch ein Ort zum Wohlfühlen. Wir legen großen Wert auf eine persönliche und herzliche Beratung, damit Du genau das findest, was Du suchst. Besuche uns und lass Dich von der liebevollen Atmosphäre und unserer wunderschönen Mode inspirieren. <br>
+        <br>
+        Wir freuen uns auf Deinen Besuch!</p>
+    </div>
+  </div>
+</div>
+
+<!-- Bekleidung -->
+
+<div class="bekleidung">
+  <div class="bekleidung_text">
+    <h2 id="bekleidung">Für Dich und Dein Kind</h2>
+    <p> Bei uns findest Du alles, was das Herz begehrt: von schöner und praktischer Kinderkleidung, die zum Spielen und Entdecken einlädt, bis hin zu modischen Must-Haves für Frauen, die sowohl im Alltag als auch bei besonderen Anlässen glänzen möchten. <br>
+      In unserem Kleinen Wunderladen findest Du Mode für jede Jahreszeit. Ob leichte und luftige Sommerkleidung, gemütliche und warme Winteroutfits, oder stylische Übergangskleidung für Frühling und Herbst – wir haben stets die passende Auswahl für Dich und Deine Lieben.</p>
+  </div>
+  <div class="row" >
+    <div class="column_3"> <img src="src/fraubonde_muetzen.jpg" alt="fraubonde_innenaufnahme_04"> </div>
+  </div>
+</div>
+<div class="contact">
+  <div class="image_lena"> 
+	<img src="src/fraubonde_lena_bonde_eingang.jpg" alt="Lena Bonde vor ihrem Laden namens Frau Bonde in Glücksburg">
+	</div>
+  <div class="contact_information">
+    <h3>Hallo, ich bin Lena!</h3>
+    <p>Seit September 2023 führe ich meinen wundervollen Laden "Frau Bonde" in Glücksburg.</p>
+    <p><strong>Frau Bonde - schönes für klein und groß</strong><br>
+      Rathausstraße 1<br>
+      24690 Glücksburg<br>
+      Schleswig-Holstein<br>
+      <br>
+      Tel. +49 (0) 4631 - 44 44 648<br>
+      frau-bonde@web.de<br>
+      <br>
+    </p>
+    <button class="contact_button" href="mailto:frau-bonde@web.de">
+    <a class="button_text">Jetzt kontaktieren</a>
+    </button>
+  </div>
+</div>
+<div class="opening_info">
+  <div class="opening">
+    <div class="info_block">
+      <h2 id="oeffnungeszeiten">Öffnungszeiten</h2>
+      <p>Bitte beachte, dass die Öffnungszeiten in den Sommer- und Wintermonaten variieren können</p>
+      <div class="days">
+        <p>Montag<br>
+          Dienstag<br>
+          Mittwoch<br>
+          Donnerstag<br>
+          Freitag<br>
+          Samstag<br>
+          </p>
+      </div>
+      <div class="times" id="time">
+        <p>10.00 - 18.00 Uhr<br>
+          10.00 - 18.00 Uhr<br>
+          10.00 - 18.00 Uhr<br>
+          10.00 - 18.00 Uhr<br>
+          10.00 - 18.00 Uhr<br>
+          10.00 - 14.00 Uhr<br>
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="sociallinks">
+    <div class="social">
+      <h2>Social Media</h2>
+      <p>Folgt mir auf meinen Social-Media Kanälen, um keine Neuigkeiten zu verpassen.</p>
+      <br>
+      <button class="contact_button" href="https://www.instagram.com/fraubonde/">
+      <a class="button_text">Instagram</a>
+      </button>
+      <br>
+      <button class="contact_button" href="https://www.facebook.com/FrauBonde/">
+      <a class="button_text">Facebook</a>
+      </button>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer"> <a class="impressum">Impressum</a> <a class="datenschutz" href="Datenschutz.html">Datenschutz</a> </div>
+</footer>
+</body>
+</html>
