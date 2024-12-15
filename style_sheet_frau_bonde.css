@@ -882,7 +882,7 @@ html, body {
   }
   /*USED FOR HEADING NAV*/
   a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   a:link {
     text-decoration: none;
@@ -900,7 +900,7 @@ html, body {
     margin-right: auto;
     margin-left: auto;
     float: none;
-    width: 90%;
+    width: 100%;
     display: block;
   }
   .opening_time {
