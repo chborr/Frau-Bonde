@@ -1,12 +1,28 @@
 @charset "utf-8";
 /*Variable Declarations*/
 /* CSS Document */
+
+@font-face {
+    font-family: 'Outfit'; /* Name der Schriftart */
+    src: url('/src/font/Outfit-Light.ttf') format('truetype'),
+	 url('/src/font/Outfit-Regular.ttf') format('truetype'),
+	url('/src/font/Outfit-Medium.ttf') format('truetype'),
+	url('/src/font/Outfit-Bold.ttf') format('truetype') ; /* Format als Truetype angeben */
+    font-weight: normal; /* Optional: Gewicht der Schrift (normal, bold, etc.) */
+    font-style: normal;  /* Optional: Stil der Schrift (normal, italic, etc.) */
+}
+
+body {
+    font-family: 'Outfit', Arial, sans-serif; /* Schriftart verwenden */
+}
+
+<!--
 html, body {
   font-family: Outfit, "Outfit Black", "Outfit ExtraBold", "Outfit ExtraLight", "Outfit Light", "Outfit Medium", "Outfit SemiBold", "Outfit Thin";
   margin: 0;
   padding: 0;
 	
-}
+}-->
 
 
 @media screen and (min-width: 1681px) {
