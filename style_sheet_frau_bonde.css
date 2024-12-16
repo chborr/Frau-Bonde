@@ -12,17 +12,10 @@
     font-style: normal;  /* Optional: Stil der Schrift (normal, italic, etc.) */
 }
 
-body {
+html, body {
     font-family: 'Outfit', Arial, sans-serif; /* Schriftart verwenden */
 }
 
-<!--
-html, body {
-  font-family: Outfit, "Outfit Black", "Outfit ExtraBold", "Outfit ExtraLight", "Outfit Light", "Outfit Medium", "Outfit SemiBold", "Outfit Thin";
-  margin: 0;
-  padding: 0;
-	
-}-->
 
 
 @media screen and (min-width: 1681px) {
