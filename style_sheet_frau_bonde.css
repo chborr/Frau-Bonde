@@ -4,10 +4,7 @@
 
 @font-face {
     font-family: 'Outfit'; /* Name der Schriftart */
-    src: url('/src/font/Outfit-Light.ttf') format('truetype'),
-	 url('/src/font/Outfit-Regular.ttf') format('truetype'),
-	url('/src/font/Outfit-Medium.ttf') format('truetype'),
-	url('/src/font/Outfit-Bold.ttf') format('truetype') ; /* Format als Truetype angeben */
+    src: url('/src/font/Outfit-Regular.ttf') format('truetype'); /* Format als Truetype angeben */
     font-weight: normal; /* Optional: Gewicht der Schrift (normal, bold, etc.) */
     font-style: normal;  /* Optional: Stil der Schrift (normal, italic, etc.) */
 }
