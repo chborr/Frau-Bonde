@@ -3,17 +3,21 @@
 /* CSS Document */
 
 @font-face {
-    font-family: 'Outfit'; /* Name der Schriftart */
-    src: url('/src/font/Outfit-Regular.ttf') format('truetype'); /* Format als Truetype angeben */
+    font-family: 'Zain'; /* Name der Schriftart */
+    src: url('./src/font/Zain-Regular.ttf') format('truetype'); /* Format als Truetype angeben */
     font-weight: normal; /* Optional: Gewicht der Schrift (normal, bold, etc.) */
     font-style: normal;  /* Optional: Stil der Schrift (normal, italic, etc.) */
 }
 
 html, body {
-    font-family: 'Outfit', Arial, sans-serif; /* Schriftart verwenden */
+    font-family: 'Zain', Arial, sans-serif; /* Schriftart verwenden */
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Hilft, Layout-Fehler zu vermeiden */
+}
 
 @media screen and (min-width: 1681px) {
   /*	
@@ -40,37 +44,52 @@ html, body {
   }
   a:link {
     text-decoration: none;
-    color: #006C98;
+    color: white;
   }
   a:hover {
     text-decoration: underline;
-    color: #0A2E3D;
+    color: #F2E500;
     transition: 0.3s;
+  
   }
+
+a:visited {
+    
+    color: white;
+}
+
+a:visited:hover {
+   text-decoration: underline;
+    color: #F2E500;
+    transition: 0.3s;
+}
+
   .menu {
     font-size: 24px;
-    padding-top: 30px;
+    padding-top: 2%;
+    padding-bottom:2%;
     text-align: center;
-    color: #006C98;
     margin-right: auto;
     margin-left: auto;
     float: none;
+    background-color: #71C2AD;
   }
   .opening_time {
     padding: 0px 5% 0px 5%;
   }
   .header {
-    background-color: #E9F7F5;
+    background-color: #ffffff;
     background-size: cover;
     height: auto;
     width: 100%;
   }
   .logo_header {
-    width: 30%;
+    width: 20%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding:2%;
   }
   .image_welcome_one {
     width: 40%;
@@ -121,7 +140,7 @@ html, body {
     width: 50%;
     margin-left: 30px;
     vertical-align: middle;
-    color: #006C98;
+    color: #E83181;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -129,7 +148,7 @@ html, body {
     display: flex;
   }
   .bekleidung {
-    background-color: #FFA595;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     padding: 2% 10% 2% 10%;
@@ -159,12 +178,12 @@ html, body {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #E83181;
     margin-left: 10%;
   }
   .contact_button {
     width: 400px;
-    background-color: #FFA595;
+    background-color: #E84E0F;
     border: none;
     border-radius: 50px;
     padding: 15px;
@@ -172,7 +191,7 @@ html, body {
   }
   .contact_button:hover {
     background-color: #8B1D09;
-    border: #FFA595;
+    
     transition: 0.3s;
   }
   .button_text {
@@ -186,14 +205,14 @@ html, body {
     padding: 10px;
   }
   .opening_info {
-    background-color: #E9F7F5;
-    width: 100%;
+    background-color: #71C2AD;
+    width: auto;
     height: auto;
     display: flex;
     padding: 2% 10% 2% 10%;
   }
   .opening {
-    color: #006C98;
+    color: #ffffff;
     width: 40%;
     margin-top: auto;
     margin-bottom: auto;
@@ -212,7 +231,7 @@ html, body {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #ffffff;
     margin-left: 10%;
   }
   .sociallinks {}
@@ -224,6 +243,7 @@ html, body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color:#71C2AD;
   }
   .impressum, .datenschutz {
     font-size: 20px;
@@ -251,38 +271,53 @@ html, body {
   }
   a:link {
     text-decoration: none;
-    color: #006C98;
+    color: white;
   }
   a:hover {
     text-decoration: underline;
-    color: #0A2E3D;
+    color: #F2E500;
     transition: 0.3s;
+  
   }
+
+a:visited {
+    
+    color: white;
+}
+
+a:visited:hover {
+   text-decoration: underline;
+    color: #F2E500;
+    transition: 0.3s;
+}
   .menu {
-    padding-top: 30px;
+    padding-top: 2%;
     text-align: center;
-    color: #006C98;
+    padding-bottom:2%;
     margin-right: auto;
     margin-left: auto;
     float: none;
-    width: 90%;
+    width: auto;
     display: block;
+    background-color: #71C2AD;
   }
   .opening_time {
     padding: 0px 5% 0px 5%;
   }
   .header {
-    background-color: #E9F7F5;
+    background-color: #ffffff;
     background-size: auto;
     height: auto;
     width: 100%;
   }
   .logo_header {
-    width: 40%;
+    width: 30%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding:2%;
+    padding-top:5%;
   }
   .image_welcome_one {
     width: 40%;
@@ -333,7 +368,7 @@ html, body {
     width: 50%;
     margin-left: 30px;
     vertical-align: middle;
-    color: #006C98;
+    color: #E83181;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -341,7 +376,7 @@ html, body {
     display: flex;
   }
   .bekleidung {
-    background-color: #FFA595;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     padding: 50px 10% 50px 10%;
@@ -375,13 +410,13 @@ html, body {
     width: 40%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #E83181;
     margin-left: 5%;
     padding-bottom: 2%;
   }
   .contact_button {
     width: 300px;
-    background-color: #FFA595;
+    background-color: #E84E0F;
     border: none;
     border-radius: 50px;
     padding: 15px;
@@ -389,7 +424,7 @@ html, body {
   }
   .contact_button:hover {
     background-color: #8B1D09;
-    border: #FFA595;
+    
     transition: 0.3s;
   }
   .button_text {
@@ -403,14 +438,14 @@ html, body {
     padding: 10px;
   }
   .opening_info {
-    background-color: #E9F7F5;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     display: flex;
     padding: 2% 10% 2% 10%;
   }
   .opening {
-    color: #006C98;
+    color: #ffffff;
     width: 60%;
     margin-top: auto;
     margin-bottom: auto;
@@ -429,7 +464,7 @@ html, body {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #ffffff;
     margin-left: 10%;
   }
   .sociallinks {}
@@ -441,6 +476,7 @@ html, body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color:#71C2AD;
   }
   .impressum, .datenschutz {
     font-size: 20px;
@@ -468,39 +504,55 @@ html, body {
   }
   a:link {
     text-decoration: none;
-    color: #006C98;
+    color: white;
   }
   a:hover {
     text-decoration: underline;
-    color: #0A2E3D;
+    color: #F2E500;
     transition: 0.3s;
+  
   }
+
+a:visited {
+    
+    color: white;
+}
+
+a:visited:hover {
+   text-decoration: underline;
+    color: #F2E500;
+    transition: 0.3s;
+}
+
   .menu {
-    padding-top: 30px;
+    padding-top: 2%;
     text-align: center;
-    color: #006C98;
+    padding-bottom:2%;
     margin-right: auto;
     margin-left: auto;
     float: none;
-    width: 90%;
+    width: auto;
     display: block;
+    background-color: #71C2AD;
   }
   .opening_time {
     padding: 0px 5% 0px 5%;
   }
   .header {
-    background-color: #E9F7F5;
+    background-color: #ffffff;
     background-size: auto;
     height: auto;
     width: 100%;
   }
   .logo_header {
-    width: 40%;
+    width: 30%;
     padding-top: 2%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding:2%;
+    padding-top:5%;
   }
   .image_welcome_one {
     width: 40%;
@@ -549,7 +601,7 @@ html, body {
   .welcome_text {
     width: 100%;
     vertical-align: middle;
-    color: #006C98;
+    color: #E83181;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -558,7 +610,7 @@ html, body {
     flex-wrap: wrap-reverse;
   }
   .bekleidung {
-    background-color: #FFA595;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     padding: 50px 10% 50px 10%;
@@ -585,13 +637,13 @@ html, body {
     width: 40%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #E83181;
     margin-left: 5%;
     padding-bottom: 2%;
   }
   .contact_button {
     width: 300px;
-    background-color: #FFA595;
+    background-color: #E84E0F;
     border: none;
     border-radius: 50px;
     padding: 15px;
@@ -599,7 +651,7 @@ html, body {
   }
   .contact_button:hover {
     background-color: #8B1D09;
-    border: #FFA595;
+
     transition: 0.3s;
   }
   .button_text {
@@ -613,7 +665,7 @@ html, body {
     padding: 10px;
   }
   .opening_info {
-    background-color: #E9F7F5;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     display: flex;
@@ -621,7 +673,7 @@ html, body {
     padding: 2% 10% 2% 10%;
   }
   .opening {
-    color: #006C98;
+    color: #ffffff;
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
@@ -640,7 +692,7 @@ html, body {
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #ffffff;
   }
   .sociallinks {}
   .footer {
@@ -651,6 +703,7 @@ html, body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color:#71C2AD;
   }
   .impressum, .datenschutz {
     font-size: 20px;
@@ -676,41 +729,57 @@ html, body {
   a {
     font-size: 1.5rem;
   }
-  a:link {
+  
+a:link {
     text-decoration: none;
-    color: #006C98;
+    color: white;
   }
   a:hover {
     text-decoration: underline;
-    color: #0A2E3D;
+    color: #F2E500;
     transition: 0.3s;
+  
   }
+
+a:visited {
+    
+    color: white;
+}
+
+a:visited:hover {
+   text-decoration: underline;
+    color: #F2E500;
+    transition: 0.3s;
+}
+
   .menu {
-    padding-top: 30px;
+    padding-top: 4%;
     text-align: center;
-    color: #006C98;
+    padding-bottom:4%;
     margin-right: auto;
     margin-left: auto;
     float: none;
-    width: 90%;
+    width:auto;
     display: block;
+    background-color: #71C2AD;
   }
   .opening_time {
     padding: 0px 5% 0px 5%;
   }
   .header {
-    background-color: #E9F7F5;
+    background-color: #ffffff;
     background-size: auto;
     height: auto;
     width: 100%;
   }
   .logo_header {
-    width: 60%;
+    width: 40%;
     padding-top: 6%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom:5%;
   }
   .image_welcome_one {
     width: 40%;
@@ -758,7 +827,7 @@ html, body {
   .welcome_text {
     width: 100%;
     vertical-align: middle;
-    color: #006C98;
+    color: #E83181;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -767,7 +836,7 @@ html, body {
     flex-wrap: wrap-reverse;
   }
   .bekleidung {
-    background-color: #FFA595;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     padding: 50px 10% 50px 10%;
@@ -792,18 +861,18 @@ html, body {
     width: 100%;
   }
   .contact_information {
-    width: 80%;
+    width: auto;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #E83181;
     padding-left: 10%;
     padding-bottom: 2%;
     padding-right: 10%;
   }
   .contact_button {
     width: 300px;
-    background-color: #FFA595;
+    background-color: #E84E0F;
     border: none;
     border-radius: 50px;
     padding: 15px;
@@ -811,7 +880,7 @@ html, body {
   }
   .contact_button:hover {
     background-color: #8B1D09;
-    border: #FFA595;
+
     transition: 0.3s;
   }
   .button_text {
@@ -825,7 +894,7 @@ html, body {
     padding: 10px;
   }
   .opening_info {
-    background-color: #E9F7F5;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     display: flex;
@@ -835,7 +904,7 @@ html, body {
     padding: 2% 10% 2% 10%;
   }
   .opening {
-    color: #006C98;
+    color: #ffffff;
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
@@ -854,7 +923,7 @@ html, body {
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #ffffff;
   }
   .sociallinks {}
   .footer {
@@ -865,6 +934,7 @@ html, body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color:#71C2AD;
   }
   .impressum, .datenschutz {
     font-size: 20px;
@@ -890,36 +960,51 @@ html, body {
   a {
     font-size: 1.1rem;
   }
-  a:link {
+  
+a:link {
     text-decoration: none;
-    color: #006C98;
+    color: white;
   }
   a:hover {
     text-decoration: underline;
-    color: #0A2E3D;
+    color: #F2E500;
     transition: 0.3s;
+  
   }
+
+a:visited {
+    
+    color: white;
+}
+
+a:visited:hover {
+   text-decoration: underline;
+    color: #F2E500;
+    transition: 0.3s;
+}
+
   .menu {
     padding-top: 5%;
+    padding-bottom:5%;
     text-align: center;
-    color: #006C98;
     margin-right: auto;
     margin-left: auto;
     float: none;
-    width: 100%;
+    width: auto;
     display: block;
+    background-color: #71C2AD;
   }
   .opening_time {
     padding: 0px 5% 0px 5%;
   }
   .header {
-    background-color: #E9F7F5;
+    background-color: #ffffff;
     background-size: auto;
     height: auto;
     width: 100%;
   }
   .logo_header {
-    width: 80%;
+    width: 60%;
     padding-top: 6%;
     height: auto;
     display: block;
@@ -973,7 +1058,7 @@ html, body {
   .welcome_text {
     width: 100%;
     vertical-align: middle;
-    color: #006C98;
+    color: #E83181;
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -982,7 +1067,7 @@ html, body {
     flex-wrap: wrap-reverse;
   }
   .bekleidung {
-    background-color: #FFA595;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     padding: 2% 10% 50px 10%;
@@ -1008,18 +1093,18 @@ html, body {
     width: 100%;
   }
   .contact_information {
-    width: 80%;
+    width: auto;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #E83181;
     padding-left: 10%;
     padding-bottom: 2%;
     padding-right: 10%;
   }
   .contact_button {
     width: 70%;
-    background-color: #FFA595;
+    background-color: #E84E0F;
     border: none;
     border-radius: 50px;
     padding: 10px;
@@ -1027,7 +1112,7 @@ html, body {
   }
   .contact_button:hover {
     background-color: #8B1D09;
-    border: #FFA595;
+  
     transition: 0.3s;
   }
   .button_text {
@@ -1041,7 +1126,7 @@ html, body {
     padding: 10px;
   }
   .opening_info {
-    background-color: #E9F7F5;
+    background-color: #71C2AD;
     width: auto;
     height: auto;
     display: flex;
@@ -1051,7 +1136,7 @@ html, body {
     padding: 2% 10% 2% 10%;
   }
   .opening {
-    color: #006C98;
+    color: #ffffff;
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
@@ -1070,7 +1155,7 @@ html, body {
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    color: #006C98;
+    color: #ffffff;
   }
   .sociallinks {}
   .footer {
@@ -1081,6 +1166,7 @@ html, body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color:#71C2AD;
   }
   .impressum, .datenschutz {
     font-size: 20px;
